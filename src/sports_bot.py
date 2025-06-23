@@ -1,7 +1,7 @@
 from datetime import datetime
 from src.utils.market_env import MarketMakingBot
 
-# Mocked odds used instead of OddsAPI to share pubclicly
+# Mocked odds for public sharing
 def mock_pulling_odds():
     return {
         "draftkings": +120,

@@ -15,7 +15,7 @@ bootstrap_params = {
             # The more I believe that the current market is mispriced, the greater I'll move to capture it
             'mark_edge_schedule': [
                 {'mark_edge_pb': 0, 'movement_mult': 1},
-                {'mark_edge_pb': 0.02, 'movement_mult': 1},
+                {'mark_edge_pb': 0.02, 'movement_mult': 1.1},
                 {'mark_edge_pb': 0.04, 'movement_mult': 1.2},
             ],
         },
