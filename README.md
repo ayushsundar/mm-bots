@@ -8,7 +8,7 @@ I built this to explore how different kinds of information (or lack of it) affec
 
 ### 🏀 SportsArbBot (Fully Informed)
 
-- Simulates a sports market (e.g. NBA game) right as it ends.
+- Simulates a sports market right as it ends.
 - Pulls mocked odds from DraftKings and FanDuel.
 - Represents an **arbitrageur** who prices confidently around known outcomes.
 - Good for modeling price convergence and fast arbitrage behavior.
@@ -20,13 +20,13 @@ I built this to explore how different kinds of information (or lack of it) affec
 - Simulates a prediction market on **"Will Democrats win the House in 2026?"**
 - Scrapes poll data (Quantus, Cygnal) and mixes it with prediction market odds (Polymarket, PredictIt).
 - Final implied prob: **2/3 market data + 1/3 polling data**
-- Represents someone trading off market wisdom and noisy polling — like a hedge fund analyst, but more chaotic.
+- Represents someone trading off market wisdom and noisy polling. Sort of like a hedge fund analyst, but more chaotic.
 
 ---
 
 ### 💧 SeedBot (Uninformed)
 
-- Has no clue what’s going on — just quotes and fills to create liquidity.
+- Has no clue what’s going on, just quotes and fills to create liquidity.
 - Doesn’t care about the outcome, just uses order flow to adjust quotes.
 - Meant to simulate a platform-seeded AMM or early-stage bootstrapping bot.
 
